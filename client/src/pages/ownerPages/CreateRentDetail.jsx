@@ -144,8 +144,8 @@ const CreateRentDetail = () => {
                 <h5 className="text-gray-700 mb-3">
                   <HomeWorkRoundedIcon /> Select Your Real Estate
                 </h5>
-                <TextField
-                  select
+                <input
+                  
                   required
                   label="Real Estate"
                   value={contractForm.realEstate}
@@ -153,17 +153,9 @@ const CreateRentDetail = () => {
                   sx={{ width: "300px" }}
                   name="realEstate"
                   color="tertiary"
-                >
-                  {allContracts?.map((contract) => (
-                    <MenuItem
-                      key={contract._id}
-                      value={contract.realEstate._id}
-                      className=""
-                    >
-                      {contract.realEstate.title}
-                    </MenuItem>
-                  ))}
-                </TextField>
+                />
+                  
+                
               </div>
               <div className="flex flex-col items-center md:items-start">
                 <h5 className="text-gray-700 mb-3">

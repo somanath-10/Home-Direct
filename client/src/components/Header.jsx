@@ -62,9 +62,7 @@ const Header = () => {
                     },
                   }}
                 />
-                <div className="mx-auto">
-                  <Logo />
-                </div>
+               
               </div>
               <div className="modal-body relative p-4 flex flex-col h-3/4 gap-5">
                 {userType === "owner" ? (
@@ -79,7 +77,6 @@ const Header = () => {
       )}
       <header className="flex m-1 shadow-sm justify-center items-center">
         <div className="flex flex-col justify-center ml-2 mr-auto">
-          <Logo />
         </div>
 
         <nav className="hidden justify-evenly items-center w-1/3 lg:flex">

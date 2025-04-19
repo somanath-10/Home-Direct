@@ -96,7 +96,7 @@ const PrivacyPoliciesPage = () => {
     return (
       <div>
         <header className="flex m-1 shadow-sm">
-          <Logo />
+          <Logo/>
           <div className="flex flex-col justify-center ml-2">
             <h5 className="font-display">Rent Manager</h5>
             <p className="hidden text-xs md:block md:text-sm">
